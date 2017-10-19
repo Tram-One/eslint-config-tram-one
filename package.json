@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-tram-one",
+  "version": "1.0.0",
+  "description": "This is the eslint config (used in tandem with xo) for the Tram-One Project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tram-One/eslint-config-tram-one.git"
+  },
+  "author": {
+    "name": "Jesse Jurman",
+    "email": "j.r.jurman@gmail.com",
+    "url": "https://github.com/jrjurman"
+  },
+  "keywords": [
+    "tram-one",
+    "eslint-config",
+    "xo",
+    "eslint",
+    "tram",
+    "one"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tram-One/eslint-config-tram-one/issues"
+  },
+  "homepage": "https://github.com/Tram-One/eslint-config-tram-one#readme"
+}
