@@ -1,25 +1,14 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'node': true,
-    'jasmine': true
+  env: {
+    browser: true,
+    node: true,
+    jasmine: true
   },
-  'semi': [
-    'never'
-  ],
-  'indent': [
-    'error',
-    2
-  ],
-  'capitalized-comments': [
-    'error',
-    'never'
-  ],
-  'arrow-parens': [
-    'off'
-  ],
-  'object-shorthand': [
-    'error',
-    'consistent'
-  ]
+  rules: {
+    semi: [ 'error', 'never' ],
+    indent: [ 'error', 2 ],
+    'capitalized-comments': [ 'error', 'never' ],
+    'arrow-parens': [ 'off' ],
+    'object-shorthand': [ 'error', 'consistent' ]
+  }
 }
