@@ -9,6 +9,7 @@ module.exports = {
     indent: [ 'error', 2 ],
     'capitalized-comments': [ 'error', 'never' ],
     'arrow-parens': [ 'off' ],
-    'object-shorthand': [ 'error', 'consistent' ]
+    'object-shorthand': [ 'error', 'consistent' ],
+    curly: [ 'error', 'multi-line' ]
   }
 }
