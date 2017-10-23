@@ -10,6 +10,7 @@ module.exports = {
     'capitalized-comments': [ 'error', 'never' ],
     'arrow-parens': [ 'off' ],
     'object-shorthand': [ 'error', 'consistent' ],
-    curly: [ 'error', 'multi-line' ]
+    curly: [ 'error', 'multi-line' ],
+    'import/newline-after-import': [ 'off' ]
   }
 }
