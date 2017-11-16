@@ -5,12 +5,13 @@ module.exports = {
     jasmine: true
   },
   rules: {
-    semi: [ 'error', 'never' ],
-    indent: [ 'error', 2 ],
-    'capitalized-comments': [ 'error', 'never' ],
     'arrow-parens': [ 'off' ],
-    'object-shorthand': [ 'error', 'consistent' ],
+    'capitalized-comments': [ 'error', 'never' ],
     curly: [ 'error', 'multi-line' ],
-    'import/newline-after-import': [ 'off' ]
+    'import/newline-after-import': [ 'off' ],
+    indent: [ 'error', 2 ],
+    'object-shorthand': [ 'error', 'consistent' ],
+    semi: [ 'error', 'never' ],
+    'unicorn/filename-case': [ 'off' ]
   }
 }
