@@ -10,6 +10,7 @@ module.exports = {
     'curly': [ 'error', 'multi-line' ],
     'import/newline-after-import': [ 'off' ],
     'indent': [ 'error', 2 ],
+    'max-params': ['off'],
     'quote-props': [ 'error', 'consistent-as-needed' ],
     'object-shorthand': [ 'error', 'consistent' ],
     'semi': [ 'error', 'never' ],
