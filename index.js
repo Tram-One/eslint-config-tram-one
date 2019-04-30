@@ -14,7 +14,6 @@ module.exports = {
     'indent': ['error', 2],
     'max-params': ['off'],
     'max-statements-per-line': ['off'],
-    'no-unused-vars': ['error', {'args': 'after-used'}],
     'object-curly-spacing': ['error', 'always'],
     'one-var': ['off'],
     'object-shorthand': ['error', 'consistent'],
