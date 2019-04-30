@@ -2,18 +2,24 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    jasmine: true
+    jest: true
   },
   rules: {
-    'arrow-parens': [ 'off' ],
-    'capitalized-comments': [ 'error', 'never' ],
-    'curly': [ 'error', 'multi-line' ],
-    'import/newline-after-import': [ 'off' ],
-    'indent': [ 'error', 2 ],
+    'arrow-parens': ['off'],
+    'brace-style': ['error', '1tbs', {'allowSingleLine': true}],
+    'capitalized-comments': ['error', 'never'],
+    'curly': ['error', 'multi-line'],
+    "eslint-comments/disable-enable-pair": ["error", {'allowWholeFile': true}],
+    'import/newline-after-import': ['off'],
+    'indent': ['error', 2],
     'max-params': ['off'],
-    'quote-props': [ 'error', 'consistent-as-needed' ],
-    'object-shorthand': [ 'error', 'consistent' ],
-    'semi': [ 'error', 'never' ],
-    'unicorn/filename-case': [ 'off' ]
+    'max-statements-per-line': ['off'],
+    'object-curly-spacing': ['error', 'always'],
+    'one-var': ['off'],
+    'object-shorthand': ['error', 'consistent'],
+    'quote-props': ['error', 'consistent-as-needed'],
+    'semi': ['error', 'never'],
+    'unicorn/filename-case': ['off'],
+    'unicorn/prefer-node-append': ['off']
   }
 }
