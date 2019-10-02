@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tram-one",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "This is the eslint config (used in tandem with xo) for the Tram-One Project",
   "main": "index.js",
   "repository": {
