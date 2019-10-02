@@ -5,21 +5,44 @@ module.exports = {
     jest: true
   },
   rules: {
-    'arrow-parens': ['off'],
+    // allow single line blocks
+    // e.g. if (props.error) { showErrorModal() }
     'brace-style': ['error', '1tbs', {'allowSingleLine': true}],
-    'capitalized-comments': ['error', 'never'],
+
+    // capitalized comments can muck up comments referencing variables
+    // e.g. // ColorHeader should be disabled when in error
+    'capitalized-comments': ['off'],
+
+    // allow for single line guard clauses
+    // e.g. if (props.error) return ErrorComponent()
     'curly': ['error', 'multi-line'],
-    "eslint-comments/disable-enable-pair": ["error", {'allowWholeFile': true}],
-    'import/newline-after-import': ['off'],
-    'indent': ['error', 2],
+
+    // required for scss imports
+    // e.g. import './ColorHeader.scss'
+    'import/no-unassigned-import': ['off'],
+
+    // no arbitrary counts / limits
     'max-params': ['off'],
+
+    // allow curried function calls in a single line
+    // e.g. popWorkingKeyBranch(globalSpace, workingKeyName)()
     'max-statements-per-line': ['off'],
-    'object-curly-spacing': ['error', 'always'],
-    'one-var': ['off'],
-    'object-shorthand': ['error', 'consistent'],
+
+    // allow building capitalized components in tests by calling them as functions
+    // e.g. const wrapper = ColorHeader(props)
+    'new-cap': ['off'],
+
+    // force consistent quote props, only allow when needed
     'quote-props': ['error', 'consistent-as-needed'],
+
+    // force no semicolons
     'semi': ['error', 'never'],
+
+    // do not force a style for component names
+    // e.g. ColorHeader.js or color-header.js
     'unicorn/filename-case': ['off'],
-    'unicorn/prefer-node-append': ['off']
+
+    // append and appendChild have different support and functionality
+    'unicorn/prefer-node-append': ['off'],
   }
 }
