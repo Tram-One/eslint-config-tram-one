@@ -27,7 +27,11 @@ module.exports = {
     // allow curried function calls in a single line
     // e.g. popWorkingKeyBranch(globalSpace, workingKeyName)()
     'max-statements-per-line': ['off'],
-
+  
+    // Add spaces inside curly braces
+    // e.g. { 'foo' } instead of {'foo'}
+    'object-curly-spacing': ['error', 'always'],
+    
     // allow building capitalized components in tests by calling them as functions
     // e.g. const wrapper = ColorHeader(props)
     'new-cap': ['off'],
