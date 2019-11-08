@@ -42,6 +42,9 @@ module.exports = {
     // force no semicolons
     'semi': ['error', 'never'],
 
+    // force one or more spaces between template tag functions and their template literals
+    'template-tag-spacing': ['error', 'always'],
+
     // do not force a style for component names
     // e.g. ColorHeader.js or color-header.js
     'unicorn/filename-case': ['off'],
